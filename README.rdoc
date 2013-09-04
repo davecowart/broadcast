@@ -1,27 +1,30 @@
 = Broadcast
 
-This project rocks and uses MIT-LICENSE.
+An out-of-the-way, dynamic CMS engine for Rails that's nowhere near being in working order. 
+
+=== DO NOT USE THIS. IT DOESN'T DO ANYTHING YET.
 
 WORKING:
-	- routing
+* routing
 
 TODO:
-	- defining pages (generator)
-	- site map tree view
-	- creating pages
-	- deleting pages
-	- editing pages
-		- auto-generate form (formtastic? activeadmin?)
-	- parts
-		- specifying a page's property as a collection of parts
-		- adding/removing parts
-		- editing the collection items
-	- user administration (devise)
-	- file uploads (with S3 support)
+* defining pages (generator)
+* site map tree view
+* creating pages
+* deleting pages
+* editing pages
+  * auto-generate form (formtastic? activeadmin?)
+* parts
+  * specifying a page's property as a collection of parts
+  * adding/removing parts
+  * editing the collection items
+* user administration (devise?)
+* file uploads (with S3 support)
 
 NICE TO HAVES
-	- user permissions
-	- search indexing
-	- trash/restore
-	- versioning/rollbacks
-	- internationalization
+
+* user permissions
+* search indexing?
+* trash/restore
+* versioning/rollbacks
+* internationalization
